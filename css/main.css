@@ -32,6 +32,34 @@ ul {
   padding-right: 15px;
 }
 
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+.main-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .logo {
   color: #2196f3;
   font-weight: 700;
@@ -101,5 +129,50 @@ ul {
 .header-nav .link.current::after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
+}
+
+.header-adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.header-adress .item + .item {
+  margin-left: 50px;
+}
+
+.header-adress a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-adress a:hover,
+.header-adress a:focus {
+  color: #2196f3;
+}
+
+.mail-svg {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.tel-svg {
+  fill: currentColor;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=main.css.map */

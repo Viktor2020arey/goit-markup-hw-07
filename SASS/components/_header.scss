@@ -1,3 +1,19 @@
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+.main-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .logo {
   color: $accent-color;
   font-weight: 700;
@@ -58,4 +74,41 @@
   & .link.current::after {
     transform: scaleX(1);
   }
+}
+
+.header-adress {
+  display: flex;
+  margin-left: auto;
+
+  & .item + .item {
+    margin-left: 50px;
+  }
+
+  & a {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: $primary-text-color;
+    font-weight: 500;
+
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  & a:hover,
+  & a:focus {
+    color: $accent-color;
+  }
+}
+.mail-svg {
+  fill: currentColor;
+  margin-right: 10px;
+}
+.tel-svg {
+  fill: currentColor;
+  margin-right: 10px;
 }

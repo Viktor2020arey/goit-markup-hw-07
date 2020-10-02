@@ -104,7 +104,7 @@ ul {
   transform: scaleX(1);
 }
 
-.header-adress {
+/* .header-adress {
   display: flex;
   margin-left: auto;
 }
@@ -140,9 +140,9 @@ ul {
 .header-adress a:hover,
 .header-adress a:focus {
   color: var(--accent-color);
-}
+} */
 
-.main-navigation {
+/* .main-navigation {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -155,7 +155,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .overlay {
   max-width: 1600px;
