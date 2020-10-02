@@ -32,6 +32,31 @@ ul {
   padding-right: 15px;
 }
 
+.button {
+  border: none;
+  background-color: #2196f3;
+  color: #ffffff;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  -webkit-transition: cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
 header {
   border-bottom: 1px solid #ececec;
 }
@@ -174,5 +199,35 @@ header {
 .tel-svg {
   fill: currentColor;
   margin-right: 10px;
+}
+
+.overlay {
+  max-width: 1600px;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: #c4c4c4; */
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/overlay.jpg), -webkit-gradient(linear, left top, right top, from(#c4c4c4), to(#c4c4c4));
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/overlay.jpg), linear-gradient(to right, #c4c4c4, #c4c4c4);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 452px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-title {
+  max-width: 696px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=main.css.map */
