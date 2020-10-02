@@ -32,6 +32,14 @@ ul {
   padding-right: 15px;
 }
 
+.section {
+  margin-bottom: 94px;
+}
+
+.is-hidden {
+  display: none;
+}
+
 .button {
   border: none;
   background-color: #2196f3;
@@ -229,5 +237,58 @@ header {
   letter-spacing: 0.06em;
   margin-top: 0px;
   margin-bottom: 30px;
+}
+
+.advantages-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.advantages-title .item {
+  width: calc((100% - 3 * 30px) / 4);
+  margin-right: 30px;
+}
+
+.advantages-title .item:last-child {
+  margin-right: 0;
+}
+
+.advantages-title .item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  background-image: url(../images/Group.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+
+.advantages-title .clock-item::before {
+  background-image: url(../images/clock.svg);
+}
+
+.advantages-title .diagram-item::before {
+  background-image: url(../images/diagram.svg);
+}
+
+.advantages-title .astronaut-item::before {
+  background-image: url(../images/astronaut.svg);
+}
+
+.advantages-title .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 10px;
+}
+
+.advantages-title .lead {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 /*# sourceMappingURL=main.css.map */

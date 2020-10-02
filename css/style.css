@@ -202,9 +202,9 @@ header {
 .section-title.centered {
   text-align: center;
 }
-.section {
+/* .section {
   margin-bottom: 94px;
-}
+} */
 
 .section.our-team {
   background-color: var(--bg-button-portfolio);
@@ -213,14 +213,14 @@ header {
   margin-bottom: 94px;
 }
 
-.advantages-title {
+/* .advantages-title {
   display: flex;
 }
-.is-hidden {
+/* .is-hidden {
   display: none;
-}
+} */
 
-.advantages-title .item {
+/* .advantages-title .item {
   width: calc((100% - 3 * 30px) / 4);
   margin-right: 30px;
 }
@@ -234,7 +234,7 @@ header {
 
   height: 120px;
   background-image: url(../images/Group.svg);
-  /* background-size: contain; */
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--bg-button-portfolio);
@@ -262,8 +262,8 @@ header {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-}
-.list-img {
+} */
+*/ .list-img {
   display: flex;
   justify-content: space-between;
 }
