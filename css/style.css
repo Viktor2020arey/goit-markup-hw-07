@@ -263,7 +263,7 @@ header {
   font-size: 14px;
   line-height: 1.71;
 } */
-*/ .list-img {
+/* .list-img {
   display: flex;
   justify-content: space-between;
 }
@@ -294,7 +294,7 @@ header {
   text-align: center;
   color: var(--white-text);
   text-transform: uppercase;
-}
+} */
 
 /* our-team */
 .our-team {
