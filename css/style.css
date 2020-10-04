@@ -206,12 +206,12 @@ header {
   margin-bottom: 94px;
 } */
 
-.section.our-team {
+/* .section.our-team {
   background-color: var(--bg-button-portfolio);
   padding-top: 94px;
   padding-bottom: 94px;
   margin-bottom: 94px;
-}
+} */
 
 /* .advantages-title {
   display: flex;
@@ -433,11 +433,11 @@ header {
 } */
 
 /* Портфолио */
-.card-item {
+/* .card-item {
   margin-top: 94px;
-}
+} */
 
-.button-portfolio {
+/* .button-portfolio {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -450,13 +450,13 @@ header {
 
 .button-portfolio .item:last-child {
   margin-right: 0px;
-}
+} */
 
-.card-link .card-img {
+/* .card-link .card-img {
   padding: 24px 20px;
-}
+} */
 
-.button-portfolio button {
+/* .button-portfolio button {
   background-color: var(--bg-button-portfolio);
   color: var(--title-text-color);
 
@@ -484,9 +484,9 @@ header {
   background-color: var(--accent-color);
   color: var(--white-text);
   cursor: pointer;
-}
+} */
 
-.card-link h2 {
+/* .card-link h2 {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -509,7 +509,7 @@ header {
   margin: -15px;
 }
 .card-link .item {
-  /* width: calc((100% - 60px) / 3); */
+ 
   width: 370px;
   margin: 15px;
   background: #ffffff;
@@ -550,7 +550,7 @@ header {
   line-height: 1.56;
 
   color: var(--white-text);
-}
+} */
 
 /* footer */
 /* footer {
