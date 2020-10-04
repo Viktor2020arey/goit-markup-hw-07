@@ -657,7 +657,7 @@ header {
 
 /* модальное окно */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -813,7 +813,7 @@ textarea {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  /* color: rgba(117, 117, 117, 0.5); */
+  
 }
 
 .checkbox {
@@ -882,4 +882,4 @@ textarea {
 .button.form-button {
   position: absolute;
   left: 30%;
-}
+} */
