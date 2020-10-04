@@ -297,7 +297,7 @@ header {
 } */
 
 /* our-team */
-.our-team {
+/* .our-team {
   display: flex;
 }
 
@@ -371,11 +371,11 @@ header {
 
 .social-item:not(:last-child) {
   margin-right: 10px;
-}
+} */
 
 /* client */
 
-.client-list {
+/* .client-list {
   display: flex;
   justify-content: center;
 }
@@ -404,7 +404,7 @@ header {
 }
 .client-link:hover {
   border: 1px solid var(--accent-color);
-}
+} */
 
 /* button */
 /* .button {
