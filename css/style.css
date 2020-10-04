@@ -553,13 +553,12 @@ header {
 }
 
 /* footer */
-footer {
+/* footer {
   background-color: #2f303a;
 }
 .container.footer {
   display: flex;
-  /* justify-content: center; */
-  padding-top: 60px;
+   padding-top: 60px;
   padding-bottom: 60px;
 }
 .container-list-footer {
@@ -612,9 +611,9 @@ footer {
 
   margin-top: 9px;
   display: inline-block;
-}
+} */
 
-.subscription {
+/* .subscription {
   width: 570px;
   margin: 12px 0 auto auto;
 }
@@ -644,9 +643,9 @@ footer {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: #2f303a;
-}
+} */
 
-.subscription-button {
+/* .subscription-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -654,7 +653,7 @@ footer {
 }
 .subscription-icon {
   margin-left: 10px;
-}
+} */
 
 /* модальное окно */
 

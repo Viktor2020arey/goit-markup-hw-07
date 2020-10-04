@@ -22,3 +22,13 @@
     cursor: pointer;
   }
 }
+
+.subscription-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 29px;
+}
+.subscription-icon {
+  margin-left: 10px;
+}
