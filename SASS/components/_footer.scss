@@ -11,7 +11,14 @@ footer {
 }
 
 .title.footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+
   color: $white-text;
   margin-bottom: 20px;
 }
@@ -29,6 +36,7 @@ footer {
   color: $accent-color;
   font-family: Raleway, sans-serif;
   text-decoration: none;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -42,6 +50,7 @@ footer {
 .adress-title .location {
   color: $white-text;
   text-decoration: none;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -49,6 +58,7 @@ footer {
 .adress-title .link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
